@@ -29,3 +29,50 @@ body {
   font-size: 62.5%;
   font-family: var(--family-Barlow);
 }
+
+/* Hero section */
+
+.hero {
+  background-image: url(../images/mobile/image-header.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.container {
+  padding: 7rem 0;
+  width: 90%;
+  margin: 0 auto;
+}
+
+
+/* Nav Section */
+
+.nav {
+  padding: 2rem 0;
+  display: grid;
+  align-items: center;
+  grid-template-columns: repeat(2,max-content);
+  justify-content: space-between;
+}
+
+/* Hero__main Section */
+
+.hero__main {
+  height: 30rem;
+  text-align: center;
+  color: var(--white);
+}
+
+.hero__title {
+  font-family: var(--family-fraunces);
+  font-size: 2.3rem;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: .4rem;
+  margin-bottom: 2rem;
+}
+
+.hero__arrow {
+  margin: 0 auto;
+}
