@@ -190,7 +190,7 @@ body {
   text-align: center;
 }
 
-.jobs__name, .jobs__name--2 {
+.jobs__name {
   font-family: var(--family-fraunces);
   font-size: 1.6rem;
   font-weight: 900;
@@ -198,8 +198,70 @@ body {
   margin-bottom: 1.5rem;
 }
 
-.jobs__paragraph, .jobs__paragraph--2 {
+.jobs__name--2 {
+  font-family: var(--family-fraunces);
+  font-size: 1.6rem;
+  font-weight: 900;
+  color: var(--dark-blue);
+  margin-bottom: 1.5rem;
+}
+
+.jobs__paragraph {
   line-height: 1.5;
   font-size: .8rem;
   color: var(--dark-desaturated-cyan);
+}
+
+.jobs__paragraph--2 {
+  line-height: 1.5;
+  font-size: .8rem;
+  color: var(--very-dark-desaturated-blue);
+}
+
+/* Section Testimonials */
+.testimonials {
+  text-align: center;
+}
+
+.testimonials__title {
+  font-family: var(--family-fraunces);
+  font-size: .9rem;
+  letter-spacing: .2rem ;
+  text-transform: uppercase;
+  color: var(--dark-grayish-blue);
+  margin-top: 3rem;
+}
+
+.testimonials__container {
+  padding: 1rem 0;
+}
+
+.testimonials__items {
+  margin-top: 3rem;
+}
+
+.testimonials__img {
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+}
+
+.testimonials__paragraph {
+  font-size: 1rem;
+  color: var(--dark-blue);
+  line-height: 1.5;
+  margin: 1.5em;
+}
+
+.testimonials__name {
+  font-family: var(--family-fraunces);
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--very-dark-desaturated-blue);
+  margin-bottom: .8rem;
+}
+
+.testimonials__job {
+  color: var(--grayish-blue);
+  font-size: .7rem;
 }
