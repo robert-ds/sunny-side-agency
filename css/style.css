@@ -221,6 +221,7 @@ body {
 /* Section Testimonials */
 .testimonials {
   text-align: center;
+  margin: 3rem 0;
 }
 
 .testimonials__title {
@@ -229,7 +230,6 @@ body {
   letter-spacing: .2rem ;
   text-transform: uppercase;
   color: var(--dark-grayish-blue);
-  margin-top: 3rem;
 }
 
 .testimonials__container {
@@ -294,4 +294,42 @@ body {
 
 .gallery__image--4 {
   background-image: url("../images/mobile/image-gallery-sugar-cubes.jpg");
+}
+
+/* Section footer */
+
+.footer {
+  background-color: #90D4c5;
+  text-align: center;
+}
+
+.footer__container {
+  padding: 4.5rem 0;
+}
+
+.footer__logo {
+  width: 10rem;
+}
+
+.footer__nav {
+  max-width: 35rem;
+  width: 90%;
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+
+.footer__link {
+  font-size: 1rem;
+  color: var(--dark-moderate-cyan);
+  text-decoration: none;
+  padding: 1.5rem 0 4rem;
+}
+
+.footer__social {
+  display: grid;
+  grid-auto-flow: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
 }
